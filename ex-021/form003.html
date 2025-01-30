@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 003 </title>
+</head>
+<body>
+    
+    <form action="cadastro.php">   
+        <p>
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome" required maxlength="20">
+        </p>
+
+        <p>
+        <label for="media">Média:</label>
+        <input type="number" name="media" id="imedia" required min="0" max="10" step="0.5" value="5">
+        </p>
+
+
+        <p>
+            <label for="data">Período Letivo</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+
+       
+        <p>
+            <label for="dia">Dia da prova:</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+
+
+        <p>
+            <label for="hora">Hora da prova:</label>
+            <input type="time" name="hora" id="ihora">
+
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="iemail" required autocomplete="email">
+
+        </p>
+
+        <p>
+            <label for="telf">Telefone:</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" required>
+        </p>
+
+
+
+        <div>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </div>
+
+        
+
+
+
+    </form>
+
+</body>
+</html>
