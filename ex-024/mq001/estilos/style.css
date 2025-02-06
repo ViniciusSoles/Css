@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Redimesiona todos os tipos de orientação do aparelho:media="All"*/
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+
+    width: 100vw;  
+    height: 100vh;
+    background-color: lightgray;
+}
+
+h1 {
+
+    color: darkgrey;
+}
+
+@media screen and (orientation:portrait) {
+
+}
+
+@media screen and (orientation:landscape) {
+
+}
+
+
+/* device breakpoints em celulares pequenos:*/
+
+@media screen and (max-width:480px){
+
+
+/* device breakpoints em celulares méedios :*/ 
+
+}
+@media screen and (min-width:481px) and ( max-width:767px) {
+    
+}
+
+/* device breakpoints em tablets :*/
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+}
+
+/* device breakpoints em laptops/desktops :*/
+
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    
+}
+
+/* device breakpoints em telas grandes/televisão :*/
+
+@media screen and (min-width:1441) {
+    
+}
